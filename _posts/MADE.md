@@ -33,7 +33,7 @@
 
 Auto-Encoder를 통해 high dimensional dataset의 distribution estimation을 추정하는 것 외에도 오토인코더를 선택한 이유가 있습니다. 저자는 또한 오토인코더에 autoregressive property가 있다고 주장합니다.
 Autoencoder는 autoregressive model과 같이 지도학습에서 사용되는 ground truth label과 출력값간의 cost를 줄이는 supervised learning이 아닌 neg log likelihood를 minimize하는 동일한 objective를 가져 학습방법이 비슷합니다.
-또한, Autoregressive property에서 출력값인 $x_d$는 $x<d$ 로 학습되므로 출력값을 통해  $x<d$ 를 추정할 수 있습니다. 
+또한, Autoregressive property에서 출력값인 $x_d$ 는 $x<d$ 로 학습되므로 출력값을 통해  $x<d$ 를 추정할 수 있습니다. 
 
 ![그림4](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b95de1a4-3bb5-4d9a-a856-59f26ee97734/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221112%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221112T160450Z&X-Amz-Expires=86400&X-Amz-Signature=049bf23a91cd91b30291ea0e83c1a7b8525d3c4a84b101193f4d134208aa0613&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject)
 
