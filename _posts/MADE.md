@@ -1,3 +1,12 @@
+---
+layout: post
+title:  "Masked Autoencoder for Distribution Estimation"
+date:   2022-11-11
+author: Mose Gu
+categories: Auto-regressive
+tags: Auto-regressive
+use_math: true
+---
 # MADE
 
 인공지능 분야에서 가장 중요한 영역 중 하나인 Distribution estimation (i.e., 분포 추정)은 데이터의 샘플을 통해 joint distribution p(x)를 추정하는 task이며 이는 데이터의 속성 이해 뿐 아니라 모델 그자체를 파악하는데 사용될 수 있습니다.
